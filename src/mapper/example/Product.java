@@ -1,4 +1,4 @@
-package org.local.example;
+package mapper.example;
 
 import java.math.BigDecimal;
 

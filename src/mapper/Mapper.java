@@ -1,7 +1,7 @@
-package org.local.mapper;
+package mapper;
 
-import org.local.configuration.MapperFieldConfig;
-import org.local.exception.MapperException;
+import mapper.configuration.MapperFieldConfig;
+import mapper.exception.MapperException;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

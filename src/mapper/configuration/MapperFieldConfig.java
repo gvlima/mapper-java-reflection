@@ -1,4 +1,4 @@
-package org.local.configuration;
+package mapper.configuration;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

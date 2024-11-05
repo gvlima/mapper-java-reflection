@@ -1,6 +1,6 @@
-package org.local.example;
+package mapper.example;
 
-import org.local.configuration.MapperFieldConfig;
+import mapper.configuration.MapperFieldConfig;
 
 public class ProductDTO {
     private String name;

@@ -1,6 +1,6 @@
-package org.local.example;
+package mapper.example;
 
-import org.local.mapper.Mapper;
+import mapper.Mapper;
 
 import java.math.BigDecimal;
 

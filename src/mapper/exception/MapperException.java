@@ -1,4 +1,4 @@
-package org.local.exception;
+package mapper.exception;
 
 public class MapperException extends RuntimeException {
     public MapperException(String message) {
