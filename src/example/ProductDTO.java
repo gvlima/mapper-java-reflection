@@ -1,7 +1,9 @@
-package mapper.example;
+package example;
 
-import mapper.configuration.MapperFieldConfig;
+import configuration.MapperConfig;
+import configuration.MapperFieldConfig;
 
+@MapperConfig(log = true)
 public class ProductDTO {
     private String name;
     private String description;

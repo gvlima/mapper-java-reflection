@@ -1,4 +1,4 @@
-package mapper.configuration;
+package configuration;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,8 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.FIELD})
-public @interface MapperFieldConfig {
-    String source();
-    boolean typeConversion();
+@Target({ElementType.TYPE})
+public @interface MapperConfig {
+    boolean log() default false;
 }
